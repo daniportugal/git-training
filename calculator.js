@@ -12,5 +12,10 @@ $("#calcular").click(function() {
         resultado = numA * numB;
     }
     $("#resultado").html(resultado);
+ 
+if ($("#operator").val() == "-") {
+        resultado = numA - numB;
+    }
+    $("#resultado").html(resultado);
 
 });
